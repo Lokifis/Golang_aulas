@@ -36,7 +36,7 @@ func main() {
 	var numero7 rune = 'a'
 	fmt.Println("O número7 é: ", numero7)
 
-	//Pega o número diretamente da tabela ASCHII
+	//Pega o número diretamente da tabela ASCII
 	char := 'B'
 	fmt.Println(char)
 }
