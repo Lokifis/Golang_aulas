@@ -28,7 +28,8 @@ func main() {
 	slice = append(slice, 29)
 	fmt.Println(slice)
 
-	//Slice pode ser definido como uma parte do Array, com eles também podemos retirar antigos parâmetros, como o caso abaixo: 
+	//Slice pode ser definido como uma parte do Array, com eles também podemos retirar parte do parâmetros, como o caso abaixo:
+	// 1:3 significa que ele quer pegar o que está entre, sendo eles o índice 1 (inclusivo) e até o 2 (exclusivo), lembrando que começa apartir do 0
 	slice2 := array2 [1:3]
 	fmt.Println(slice2)
 	//Nesse caso, diminuimos o tamanho do Array e o Valor 0 ("New Array") foi removido 

@@ -59,7 +59,7 @@ func diaDaSemana2(num int) string {
 
 		fmt.Println("-----------------")
 
-		// Nesse exemplo, o Fallthrough joga o valor para dentro da próxima função 
+		// Nesse exemplo, o Fallthrough joga o valor para dentro da próxima condição (switch)
 		dia3:= diaDaSemana2(1)
 		fmt.Println(dia3)
 }
