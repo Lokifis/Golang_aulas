@@ -6,6 +6,9 @@ func main() {
 	tarefas := make(chan int, 32)
 	resultados := make(chan int, 32)
 
+	// Quanto mais, melhor (dependendo do poder da CPU)
+	go worker(tarefas, resultados)
+	go worker(tarefas, resultados)
 	go worker(tarefas, resultados)
 
 	for i := 0; i < 45; i++ {
